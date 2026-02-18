@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: saas-invoicing-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/saasdb
+    username: postgres
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
